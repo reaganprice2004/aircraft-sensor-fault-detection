@@ -1,0 +1,12 @@
+timestamp	status	sensor	fault_type	value	message
+t030	SUSPECT	Airspeed	SPIKE	318.9 kt	Detected abrupt change: Δ=120.0 kt exceeds max allowed Δ=60.0 kt per sample.
+t031	SUSPECT	Airspeed	SPIKE	205.8 kt	Detected abrupt change: Δ=113.1 kt exceeds max allowed Δ=60.0 kt per sample.
+t055	SUSPECT	Altitude	SPIKE	9006.8 ft	Detected abrupt change: Δ=8000.0 ft exceeds max allowed Δ=3000.0 ft per sample.
+t055	SUSPECT	Altitude/Vertical Speed	INCONSISTENT	Δalt=8000.0 ft, VS=-198 fpm	Altitude change is inconsistent with reported vertical speed (exceeds tolerance).
+t056	SUSPECT	Altitude	SPIKE	995.9 ft	Detected abrupt change: Δ=8010.9 ft exceeds max allowed Δ=3000.0 ft per sample.
+t056	SUSPECT	Altitude/Vertical Speed	INCONSISTENT	Δalt=-8010.9 ft, VS=-80 fpm	Altitude change is inconsistent with reported vertical speed (exceeds tolerance).
+t070	FAILED	OAT	OUT_OF_RANGE	95.0°C	Outside air temperature is outside plausible atmospheric range.
+t070	SUSPECT	OAT	SPIKE	95.0 °C	Detected abrupt change: Δ=83.8 °C exceeds max allowed Δ=10.0 °C per sample.
+t071	SUSPECT	OAT	SPIKE	10.8 °C	Detected abrupt change: Δ=84.2 °C exceeds max allowed Δ=10.0 °C per sample.
+t085	FAILED	Airspeed	STUCK	230.1 kt	Airspeed appears stuck (unchanged for 6 consecutive samples).
+t086	FAILED	Airspeed	STUCK	230.1 kt	Airspeed appears stuck (unchanged for 6 consecutive samples).
